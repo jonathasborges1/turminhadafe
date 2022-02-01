@@ -3,9 +3,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 
 export default function Myheader() {
-  const Logotipo = require('../assets/turminhadafe.jpeg')
-  const edition = require('../assets/edition.png')
-  const book = require('../assets/book.png')
+  const Logotipo = require('../../assets/turminhadafe.jpeg')
+  const edition = require('../../assets/edition.png')
+  const book = require('../../assets/book.png')
   const classes = useStyles();
   return(
     <>

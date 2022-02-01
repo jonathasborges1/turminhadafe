@@ -3,9 +3,9 @@ import { Button, Grid } from '@mui/material';
 import { makeStyles } from '@material-ui/styles';
 import LinearProgress from '@mui/material/LinearProgress';
 
+// section 1
 export default function Myhome() {
-    const king = require('../assets/king.png')
-    // const arrow = require('../assets/arrow.png')
+    const king = require('../../assets/king.png')
     const classes = useStyles();
     return (
         <>
